@@ -133,7 +133,7 @@ if (isset($_POST['submit'])) {
         <?php echo '<span class="error">'.$errorEmail.'</span>';?>
 
         <label for="comment">Comment *</label>
-        <input name="comment" type="text" id="country" value="<?php echo $comment?>">
+        <textarea name="comment" type="text" id="comment"><?php echo $comment?></textarea>
         <?php echo '<span class="error">'.$errorComment.'</span>';?>
 
         <input type="text" name="hp" style="display: none;" >

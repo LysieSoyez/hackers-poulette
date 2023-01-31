@@ -10,7 +10,7 @@ body{
         align-items: center;
         margin: auto;
         margin-top: 2vh;
-        max-width: 700px;
+        max-width: 600px;
         text-align: center;
         input{
             margin-top: 1vh;
@@ -19,8 +19,19 @@ body{
             padding: 1vh;
             
         }
+        #comment{
+            height: 30vh;
+            resize: none;
+            width: 50vw;
+            padding: 1vh;
+        }
+        .error{
+            color: red;
+            margin-bottom: 3vh;
+        }
+        #submit{
+            width: min-content;
+            padding: 2vh;
+        }
     }
-    .erreur{
-                background-color: red;
-            }
 }

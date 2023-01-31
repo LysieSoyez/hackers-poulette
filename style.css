@@ -10,7 +10,7 @@ body form {
   align-items: center;
   margin: auto;
   margin-top: 2vh;
-  max-width: 700px;
+  max-width: 600px;
   text-align: center;
 }
 body form input {
@@ -19,6 +19,19 @@ body form input {
   width: 50vw;
   padding: 1vh;
 }
-body .erreur {
-  background-color: red;
+body form #comment {
+  height: 30vh;
+  resize: none;
+  width: 50vw;
+  padding: 1vh;
+}
+body form .error {
+  color: red;
+  margin-bottom: 3vh;
+}
+body form #submit {
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  padding: 2vh;
 }/*# sourceMappingURL=style.css.map */
